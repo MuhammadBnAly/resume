@@ -1,0 +1,69 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+}
+
+.container {
+  padding: 0.5rem;
+}
+.container .right_col,
+.container left_col {
+  padding: 0.5rem;
+}
+.container .info h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  background-color: white;
+}
+
+.main_field .main_title p {
+  background-color: #eee;
+  margin: 0;
+  width: 100%;
+  font-weight: bolder;
+  font-size: larger;
+  margin: 0.5rem auto;
+}
+.main_field .content i {
+  margin-right: 0.5rem;
+}
+.main_field .content h4 {
+  font-weight: bold;
+}
+.main_field .content .d-flex #span {
+  color: #aaa;
+}
+.main_field .content .sub_content .time {
+  color: #0d6efd;
+}
+.main_field .content .sub_content h5 {
+  padding-right: 0.75rem;
+  font-weight: 400;
+}
+.main_field .content .sub_content .company {
+  color: #aaa;
+  font-weight: bold;
+}
+.main_field .content .sub_content p {
+  padding-left: 0.5rem;
+}
+.main_field .content .sub_content span {
+  color: #aaa;
+  font-weight: bold;
+}
+.main_field .contacts {
+  padding: 0px 0.5rem;
+}
+.main_field .col-6 {
+  padding: 0.5rem;
+}
+.main_field .col-6 .d-flex {
+  padding: 0 0.5rem;
+}/*# sourceMappingURL=main.css.map */

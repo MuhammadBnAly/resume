@@ -1,0 +1,90 @@
+// Colors
+$bgColor:white;
+$mainColor:#002;
+$secColor:#aaa;
+$theme:#eee;
+$heighList:#0d6efd;
+// fonts
+$spacing: 0.5rem;
+// 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+.container {
+    padding: $spacing;
+    .right_col,
+    left_col {
+        padding: $spacing;
+    }
+    .info {
+        h1 {
+            font-size: 3rem;
+            font-weight: bolder;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    background-color: $bgColor;
+}
+
+.main_field {
+    .main_title {
+        p {
+            background-color: $theme;
+            margin: 0;
+            width: 100%;
+            font-weight: bolder;
+            font-size: larger;
+            margin: $spacing auto;
+        }
+    }
+    .content {
+        i {
+            margin-right: $spacing;
+        }
+        h4 {
+            font-weight: bold;
+        }
+        .d-flex {
+            #span {
+                color: $secColor;
+            }
+        }
+        .sub_content {
+            .time {
+                color: $heighList;
+            }
+            h5 {
+                padding-right: $spacing * 1.5;
+                font-weight: 400;
+            }
+            .company {
+                color: $secColor;
+                font-weight: bold;
+            }
+            p {
+                padding-left: $spacing;
+            }
+            span {
+                color: $secColor;
+                font-weight: bold;
+            }
+        }
+    }
+    .contacts {
+        padding: 0px $spacing;
+    }
+    .col-6 {
+        padding: $spacing;
+        .d-flex {
+            padding: 0 $spacing;
+        }
+    }
+}

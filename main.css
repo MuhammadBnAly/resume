@@ -8,7 +8,7 @@ body {
 }
 .container .right_col,
 .container left_col {
-  padding: 0.5rem;
+  padding: 1rem;
 }
 .container .info h1 {
   font-size: 3rem;

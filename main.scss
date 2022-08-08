@@ -8,19 +8,20 @@ $heighList:#0d6efd;
 $spacing: 0.5rem;
 // 
 body {
-    font-family: 'Roboto', sans-serif;
+    // margin-top: 5rem 0;
+    font-family: 'Roboto', 'sans-serif';
     font-size: large;
 }
 
 .container {
-    padding: $spacing;
+    padding: 5rem $spacing;
     .right_col,
     left_col {
         padding: $spacing * 2;
     }
     .info {
         h1 {
-            font-size: 3rem;
+            font-size: 4rem;
             font-weight: bolder;
         }
     }
@@ -40,9 +41,9 @@ a {
             background-color: $theme;
             margin: 0;
             width: 100%;
-            font-weight: bolder;
+            font-weight: bold;
             font-size: larger;
-            margin: $spacing auto;
+            margin: $spacing*2 auto;
         }
     }
     .content {
@@ -56,6 +57,13 @@ a {
             #span {
                 color: $secColor;
             }
+            i {
+                font-size: smaller;
+            }
+            h5 {
+                // font-weight: lighter;
+                font-size: medium;
+            }
         }
         .sub_content {
             .time {
@@ -63,7 +71,7 @@ a {
             }
             h5 {
                 padding-right: $spacing * 1.5;
-                font-weight: 400;
+                font-weight: bold;
             }
             .company {
                 color: $secColor;
@@ -71,10 +79,11 @@ a {
             }
             p {
                 padding-left: $spacing;
+                font-size: medium;
             }
             span {
                 color: $secColor;
-                font-weight: bold;
+                font-weight: bolder;
             }
         }
     }
